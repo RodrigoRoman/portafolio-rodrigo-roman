@@ -63,7 +63,7 @@ class _MusicStepperState extends State<MusicStepper> with TickerProviderStateMix
                         child: Row(
                           children: [
                             Expanded(
-                              flex: 1,
+                              flex: 2,
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
@@ -87,8 +87,9 @@ class _MusicStepperState extends State<MusicStepper> with TickerProviderStateMix
                                 ],
                               )
                             ),
+                            Spacer(flex: 1,),
                             Expanded(
-                              flex: 1,
+                              flex:2,
                               child: FittedBox(
                                 child: Container(
                                   alignment: Alignment.center,

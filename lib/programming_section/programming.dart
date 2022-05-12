@@ -1,12 +1,9 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:portafolio_rodrigo_roman/music_section/music_player.dart';
 import 'package:portafolio_rodrigo_roman/programming_section/programming_detail_projects/hospital_details.dart';
 import 'package:portafolio_rodrigo_roman/programming_section/programming_steps.dart/hospital_app.dart';
 import 'package:portafolio_rodrigo_roman/programming_section/programming_steps.dart/pharmacy_app.dart';
-import 'package:portafolio_rodrigo_roman/utilities/music_examples.dart';
-import 'package:portafolio_rodrigo_roman/utilities/programming_lang_exp.dart';
 
 class AppDevStepper extends StatefulWidget {
   const AppDevStepper({Key? key }) : super(key: key);
@@ -17,13 +14,12 @@ class AppDevStepper extends StatefulWidget {
 }
 
 class _AppDevStepperState extends State<AppDevStepper> with TickerProviderStateMixin{
-      ScrollController controller = ScrollController();
+  ScrollController controller = ScrollController();
   int step = 0;
-  bool trigAppImg = false;
+  bool trigAppImg = true;
   bool trigAppImgWeb = false;
   @override
   void dispose() {
-    // TODO: implement dispose
     controller.dispose();
     super.dispose();
   }

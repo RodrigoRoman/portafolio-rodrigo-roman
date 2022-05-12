@@ -90,7 +90,7 @@ class _HospitalDetailsState extends State<HospitalDetails> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children:[
-                  for(int j=3;j<languages.length;j++)
+                  for(int j=4;j<languages.length;j++)
                     Container(
                       width: size.width/15,
                       height: size.height/15,

@@ -118,10 +118,10 @@ class _SkillsState extends State<Skills> {
 
 List<String> softSkills = [
   'Keen listener',
-  'Responsability',
+  'Responsabile',
   'Team player',
   'Active learner',
-  'Empathy',
+  'Empathic',
   'Common sense'
 ];
 
